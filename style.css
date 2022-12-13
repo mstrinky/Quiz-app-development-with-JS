@@ -60,12 +60,12 @@ body{
 
 /* 2nd page  */
 
-/* .rulesbox.activeInfo{
+.rulesbox.activeInfo{
 opacity: 1;
 z-index: 5;
 pointer-events: auto;
 transform: translate(-50%,-50%) scale(1);
-} */
+}
 
 .rulesbox{
     width: 320px;
@@ -77,8 +77,8 @@ transform: translate(-50%,-50%) scale(1);
     box-shadow: rgb(0 0 0 /10%)0px 10px 50px;
     transform: translate(-50%, -50%);
     border-radius: 48px ;
-    /* opacity: 0;
-    pointer-events: none; */
+    opacity: 0;
+    pointer-events: none;
 }
 .ruleslist{
     width: 80%;
