@@ -118,7 +118,8 @@ ol li{
 .buttons button:hover{
     background-color: rgb(29,194,194);
 }
-.question{
+
+ .question{
     width: 320px;
     height: 580px;
     position: absolute;
@@ -132,13 +133,14 @@ ol li{
 .questionheader{
     position: relative;
     z-index: 2;
-    height: 70px;
-    padding: 0 30px;
+    height: 60px;
+    padding: 10 30px;
     border-radius: 45px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
+    top: 10px;
+} 
 .questionheader .title{
     font-size: 15px;
     font-weight: 600;
@@ -190,7 +192,7 @@ ol li{
     background: aliceblue;
     border: 1px solid#84c5fe;
     border-radius: 5px;
-    padding: 16px 15px;
+    padding: 8px 15px;
     font-size: 17px;
     margin-bottom: 15px;
     cursor: pointer;
@@ -228,7 +230,7 @@ footer button{
     cursor: pointer;
     color: #f1f1f1;
     transition: all 0.3s ease;
-    margin-top: 40px;
+    margin-top: 26px;
 }
 footer.nextbtn:hover{
     background-color: rgb(29,194,194);
