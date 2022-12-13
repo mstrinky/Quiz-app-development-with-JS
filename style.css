@@ -1,0 +1,235 @@
+/* 1st page  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #f1f1f1;
+    background-color: red;
+}
+.myquizapp{
+    width: 320px;
+    height: 580px;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 /10%)0px 10px 50px;
+    transform: translate(-50%, -50%);
+    border-radius: 48px ;
+}
+ 
+.img img{
+   width: 80%;
+   /* border: 2px solid yellow; */
+      margin-left: 25px;
+      border-radius: 25px;
+}
+.text{
+    width: 90%;
+    margin: auto;
+}
+.text h3{
+    margin-top: 20px;
+}
+
+
+.btn{
+    width: 60%;
+    margin-top: 68px;
+    margin-left: 169px!important;
+}
+ 
+.btn button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: tomato;
+    border:none;
+    outline: none;
+    color: #fff;
+    padding: 6px 25px;
+    cursor: pointer;
+    border-radius: 57px 0px 51px 0px;
+    transition: 0.2s ease-in-out;
+}  
+
+.btn button:hover{
+    background-color: rgb(29,194,194);
+}
+
+/* 2nd page  */
+
+/* .rulesbox.activeInfo{
+opacity: 1;
+z-index: 5;
+pointer-events: auto;
+transform: translate(-50%,-50%) scale(1);
+} */
+
+.rulesbox{
+    width: 320px;
+    height: 580px;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 /10%)0px 10px 50px;
+    transform: translate(-50%, -50%);
+    border-radius: 48px ;
+    /* opacity: 0;
+    pointer-events: none; */
+}
+.ruleslist{
+    width: 80%;
+    margin: auto;
+}
+.rulestitle{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+ol li{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 15px 30px;
+}
+.buttons button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: tomato;
+    border:none;
+    outline: none;
+    color: #fff;
+    padding: 10px 25px;
+    cursor: pointer;
+   transition: 0.2s ease-in-out;
+   margin-top: 62px;
+}
+.exit-button{
+    border-radius: 0px 47px 0px 46px;
+}
+.continue-button{
+    border-radius: 57px 0px 46px 0px;
+    margin-left: 34px;
+}
+.buttons button:hover{
+    background-color: rgb(29,194,194);
+}
+.question{
+    width: 320px;
+    height: 580px;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 /10%)0px 10px 50px;
+    transform: translate(-50%, -50%);
+    border-radius: 48px ;
+}
+.questionheader{
+    position: relative;
+    z-index: 2;
+    height: 70px;
+    padding: 0 30px;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.questionheader .title{
+    font-size: 15px;
+    font-weight: 600;
+}
+.timecount{
+    color: #004085;
+    background: #cce5ff;
+    border: 1px solid #b8daff;
+    height:24px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 125px;
+}
+.second{
+    font-size: 18px;
+    font-weight: 500;
+    height: 26px;
+    width: 45px;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 26px;
+    text-align: center;
+    background: #343a40;
+    border: 1px solid #343a40;
+    user-select: none;
+}
+.timelines{
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 3px;
+    background: #007bff;
+}
+.section{
+    padding: 25px 30px 20px 30px ;
+    background: #fff;
+}
+.text1{
+    font-size: 25px;
+    font-weight: 600;
+}
+.myoption{
+    padding: 20px 0px ;
+    display: block;
+}
+.options{
+    background: aliceblue;
+    border: 1px solid#84c5fe;
+    border-radius: 5px;
+    padding: 16px 15px;
+    font-size: 17px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.options:hover{
+    color: #004085;
+    background: #cce5ff;
+    border: 1px solid #b8daff;
+}
+footer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+}
+.total-que{
+    /* padding-bottom: 15px; */
+    padding-left: 30px;
+    padding-top: 20px;
+}
+footer button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8.5px 25px;
+    outline: none;
+    border: none;
+    border-radius: 57px 0px 51px 0px;
+    box-shadow: rgb(0 0 0 /10%)0px 10px 50px;
+    background: tomato;
+    cursor: pointer;
+    color: #f1f1f1;
+    transition: all 0.3s ease;
+    margin-top: 40px;
+}
+footer.nextbtn:hover{
+    background-color: rgb(29,194,194);
+}
